@@ -6,16 +6,13 @@ package classes;
 
 import java.sql.Time;
 import java.util.Date;
-import classes.Recepcionista;
-import classes.Veterinario;
-
 /**
  *
  * @author vieir
  */
 public class Consulta {
 
-    
+    private int codCon;
     private Date data;
     private Time horario;
     private String sala;
@@ -28,10 +25,15 @@ public class Consulta {
     
         
     
-    public void agendarConsulta() {
+    public Boolean agendarConsulta() {
         if(this.checarDadosObrigatorios()){
             //GRAVAR CONSULTA NO BANCO
+            System.out.println("Consulta agendada com sucesso!");
+            return true;
         }
+        
+        return false;
+        
            }
     private Boolean checarDadosObrigatorios(){
         Boolean passou = true; 
@@ -77,7 +79,9 @@ public class Consulta {
     private Boolean temRecepcionista(){
         return this.recepcionista.getNome() != null;
     }
-   
+   public Consulta buscarConsulta(int codCon){
+        return new Consulta();
+   }
     public void exibirConsultaPelaHora(Date data_consulta, Time hora) {
         Consulta consultaRetornada =  new Consulta();//BUSCAR CONSULTA PELA HORA
         this.data = consultaRetornada.getData();
@@ -93,11 +97,15 @@ public class Consulta {
     public void finalizarConsulta(Veterinario veterinario) {
         
         if(this.checarVeterinario(veterinario)){
-        //GRAVAR CONSULTA NO BANCO
+        //GRAVAR ALTERAÇÕES CONSULTA NO BANCO
         }else{
         System.out.println("Veterinario deve ser o mesmo associado!");
         }
         
+    }
+
+    public int getCodCon() {
+        return codCon;
     }
     
     public Veterinario getVeterinario() {

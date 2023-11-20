@@ -25,4 +25,13 @@ public class Veterinario extends Usuario {
     public void setCRMV(String CRMV) {
         this.CRMV = CRMV;
     }
+
+    public String getEspecialidade() {
+        return especialidade;
+    }
+
+    public void setEspecialidade(String especialidade) {
+        this.especialidade = especialidade;
+    }
+    
 }

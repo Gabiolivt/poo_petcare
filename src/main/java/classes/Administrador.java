@@ -21,22 +21,4 @@ public class Administrador extends Usuario {
         System.out.println("Email: " + email);
     }
 
-    public void cadastrarUsuario() {
-        // Lógica para cadastrar o usuário (pode ser implementada posteriormente)
-        System.out.println("Usuário cadastrado com sucesso!");
-    }
-
-    public void excluirUsuario() {
-        // Lógica para excluir o usuário (pode ser implementada posteriormente)
-        System.out.println("Usuário excluído com sucesso!");
-    }
-
-    public void editarUsuario(String novoNome, String novoLogin, String novaSenha, String novoEmail) {
-        // Lógica para editar o usuário (pode ser implementada posteriormente)
-        this.nome = novoNome;
-        this.login = novoLogin;
-        this.senha = novaSenha;
-        this.email = novoEmail;
-        System.out.println("Usuário editado com sucesso!");
-    }    
 }
