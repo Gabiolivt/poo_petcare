@@ -94,7 +94,11 @@
               </Group>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" pref="108" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <EmptySpace pref="43" max="32767" attributes="0"/>
+=======
+              <EmptySpace pref="39" max="32767" attributes="0"/>
+>>>>>>> 4d159346527d82644031f70fa58edbe64a53bd62
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="BtnBack" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -176,6 +180,7 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField2">
+<<<<<<< HEAD
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -183,12 +188,19 @@
           </Border>
         </Property>
       </Properties>
+=======
+>>>>>>> 4d159346527d82644031f70fa58edbe64a53bd62
     </Component>
     <Component class="javax.swing.JTextField" name="jTextField4">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+<<<<<<< HEAD
           <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
             <LineBorder/>
+=======
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+>>>>>>> 4d159346527d82644031f70fa58edbe64a53bd62
           </Border>
         </Property>
       </Properties>
