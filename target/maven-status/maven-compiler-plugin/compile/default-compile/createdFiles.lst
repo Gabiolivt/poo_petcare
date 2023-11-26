@@ -4,6 +4,7 @@ com\poo\uva\a4petcare\AgendamentoFrame$3.class
 com\poo\uva\a4petcare\AtendimentoFrame$1.class
 com\poo\uva\a4petcare\CadastroPetFrame$1.class
 com\poo\uva\a4petcare\CaonsultarAgendaFrame$1.class
+com\poo\uva\a4petcare\CadastroResponsavelFrame$4.class
 classes\Pet.class
 com\poo\uva\a4petcare\CadastroPetFrame$3.class
 classes\Responsavel.class
@@ -15,6 +16,7 @@ com\poo\uva\a4petcare\CadastroPetFrame$5.class
 com\poo\uva\a4petcare\AgendamentoFrame$2.class
 com\poo\uva\a4petcare\MainFrame$1.class
 com\poo\uva\a4petcare\AtendimentoFrame.class
+com\poo\uva\a4petcare\CadastroResponsavelFrame$6.class
 com\poo\uva\a4petcare\AtendimentoFrame$2.class
 classes\Veterinario.class
 com\poo\uva\a4petcare\CadastroResponsavelFrame$1.class
@@ -33,6 +35,7 @@ com\poo\uva\a4petcare\AgendamentoFrame$4.class
 com\poo\uva\a4petcare\MainFrame.class
 com\poo\uva\a4petcare\MainFrame$2.class
 com\poo\uva\a4petcare\AgendamentoFrame.class
+com\poo\uva\a4petcare\CadastroResponsavelFrame$5.class
 com\poo\uva\a4petcare\CadastroUsuarioFrame$2.class
 classes\Usuario.class
 com\poo\uva\a4petcare\LogadoMain$4.class
